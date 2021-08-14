@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 #
 # Copyright (C) 2016 The CyanogenMod Project
 # Copyright (C) 2017-2020 The LineageOS Project
@@ -7,6 +7,9 @@
 #
 
 set -e
+
+DEVICE_COMMON=sm8250-common
+VENDOR=xiaomi
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
